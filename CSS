@@ -1,0 +1,30 @@
+/* General code styling */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+/* Inline code inside paragraphs or lists */
+p > code, 
+li > code {
+  background-color: #f4f4f4;
+  color: #c7254e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* Multi-line code blocks */
+pre {
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
